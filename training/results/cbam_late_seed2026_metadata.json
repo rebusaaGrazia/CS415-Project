@@ -1,0 +1,18 @@
+{
+  "experiment": "cbam_late_seed2026",
+  "attention": "cbam",
+  "placement": "late",
+  "seed": 2026,
+  "max_epochs": 5,
+  "patience": 4,
+  "batch_size": 16,
+  "learning_rate": 0.0001,
+  "optimizer": "AdamW",
+  "augmentation": false,
+  "checkpoint_metric": "validation_macro_f1",
+  "best_epoch": 4,
+  "best_val_macro_f1": 0.9791268553529382,
+  "epochs_completed": 5,
+  "stopped_early": false,
+  "total_seconds": 262.09119295794517
+}

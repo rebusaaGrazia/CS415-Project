@@ -1,0 +1,18 @@
+{
+  "experiment": "se_late_seed42",
+  "attention": "se",
+  "placement": "late",
+  "seed": 42,
+  "max_epochs": 5,
+  "patience": 4,
+  "batch_size": 16,
+  "learning_rate": 0.0001,
+  "optimizer": "AdamW",
+  "augmentation": false,
+  "checkpoint_metric": "validation_macro_f1",
+  "best_epoch": 4,
+  "best_val_macro_f1": 0.9818588430457637,
+  "epochs_completed": 5,
+  "stopped_early": false,
+  "total_seconds": 260.12716149911284
+}

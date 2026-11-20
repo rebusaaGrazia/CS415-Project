@@ -1,0 +1,18 @@
+{
+  "experiment": "cbam_middle_seed42",
+  "attention": "cbam",
+  "placement": "middle",
+  "seed": 42,
+  "max_epochs": 5,
+  "patience": 4,
+  "batch_size": 16,
+  "learning_rate": 0.0001,
+  "optimizer": "AdamW",
+  "augmentation": false,
+  "checkpoint_metric": "validation_macro_f1",
+  "best_epoch": 5,
+  "best_val_macro_f1": 0.9804386585638295,
+  "epochs_completed": 5,
+  "stopped_early": false,
+  "total_seconds": 262.9581425418146
+}
