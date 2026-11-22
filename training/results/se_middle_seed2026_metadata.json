@@ -1,0 +1,18 @@
+{
+  "experiment": "se_middle_seed2026",
+  "attention": "se",
+  "placement": "middle",
+  "seed": 2026,
+  "max_epochs": 5,
+  "patience": 4,
+  "batch_size": 16,
+  "learning_rate": 0.0001,
+  "optimizer": "AdamW",
+  "augmentation": false,
+  "checkpoint_metric": "validation_macro_f1",
+  "best_epoch": 5,
+  "best_val_macro_f1": 0.9878427555148134,
+  "epochs_completed": 5,
+  "stopped_early": false,
+  "total_seconds": 260.8820104589686
+}
